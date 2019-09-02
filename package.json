@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mazipan/modernize-landing-page#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "1.12.3"
   },
   "dependencies": {
     "css": "^2.2.4",
