@@ -6,8 +6,8 @@
 
 
 (function($) {
-    "use strict"; 
-	
+    "use strict";
+	console.log('Welcome to Modernize Evolo...')
 	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 500;
@@ -20,7 +20,7 @@
 		hidePreloader();
 	});
 
-	
+
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
@@ -96,7 +96,7 @@
 			prevEl: '.swiper-button-prev'
 		}
     });
-    
+
 
     /* Video Lightbox - Magnific Popup */
     $('.popup-youtube, .popup-vimeo').magnificPopup({
@@ -109,8 +109,8 @@
         iframe: {
             patterns: {
                 youtube: {
-                    index: 'youtube.com/', 
-                    id: function(url) {        
+                    index: 'youtube.com/',
+                    id: function(url) {
                         var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
                         if ( !m || !m[1] ) return null;
                         return m[1];
@@ -118,8 +118,8 @@
                     src: 'https://www.youtube.com/embed/%id%?autoplay=1'
                 },
                 vimeo: {
-                    index: 'vimeo.com/', 
-                    id: function(url) {        
+                    index: 'vimeo.com/',
+                    id: function(url) {
                         var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
                         if ( !m || !m[5] ) return null;
                         return m[5];
@@ -143,8 +143,8 @@
 		removalDelay: 300,
 		mainClass: 'my-mfp-slide-bottom'
 	});
-    
-    
+
+
     /* Move Form Fields Label When User Types */
     // for input and textarea fields
     $("input, textarea").keyup(function(){
@@ -176,11 +176,11 @@
 		var phone = $("#rphone").val();
         var select = $("#rselect").val();
         var terms = $("#rterms").val();
-        
+
         $.ajax({
             type: "POST",
             url: "php/requestform-process.php",
-            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms, 
+            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms,
             success: function(text) {
                 if (text == "success") {
                     rformSuccess();
@@ -212,7 +212,7 @@
         }
         $("#rmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-    
+
 
     /* Contact Form */
     $("#contactForm").validator().on("submit", function(event) {
@@ -236,7 +236,7 @@
         $.ajax({
             type: "POST",
             url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
+            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms,
             success: function(text) {
                 if (text == "success") {
                     cformSuccess();
@@ -290,11 +290,11 @@
 		var email = $("#pemail").val();
         var select = $("#pselect").val();
         var terms = $("#pterms").val();
-        
+
         $.ajax({
             type: "POST",
             url: "php/privacyform-process.php",
-            data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms, 
+            data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms,
             success: function(text) {
                 if (text == "success") {
                     pformSuccess();
@@ -326,7 +326,7 @@
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-    
+
 
     /* Back To Top Button */
     // create the back to top button
