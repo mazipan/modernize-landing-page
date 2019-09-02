@@ -8,7 +8,7 @@ This repo try to show you how to migrate old landing page to modern frontend sta
 
 ## Original Code
 
-Template downloaded from [free-css.com](https://www.free-css.com/free-css-templates/page240/constructed)
+Template downloaded from [evolo](https://onepagelove.com/evolo)
 
 ---
 

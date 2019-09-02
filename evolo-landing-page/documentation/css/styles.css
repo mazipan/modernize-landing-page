@@ -1,0 +1,212 @@
+/**************************/
+/*     General Styles     */
+/**************************/
+body {
+	overflow-x: hidden;
+	font: 400 15px/1.8em "Open Sans", sans-serif; 
+}
+
+p {
+	font: 400 15px/1.7em "Open Sans", sans-serif; 
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 62px;
+}
+
+a {
+	color: #2658d5;
+	font-weight: 600;
+	text-decoration: none;
+}
+ 
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+pre.code-format {
+	max-width: 1000px;
+	line-height:1.7em;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	margin-top: 20px;
+	margin-bottom: -5px;
+}
+
+
+
+/************************/
+/*     Page Content     */
+/************************/
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar-wrapper p {
+	display: block;
+	color: #fff;
+	font-size: 22px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#page-content-wrapper .code {
+	font: 400 14px/1.6em "Source Code Pro", sans-serif; 
+	color: #c22525;
+}
+
+#page-content-wrapper hr {
+	border-top: 1px solid #dfdfdf; 
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+.separator {
+	margin-bottom: 15px;
+}
+
+.footer {
+	margin-top: 60px;
+	color: grey;
+}
+
+
+/**************************/
+/*     Sidebar Styles     */
+/**************************/
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar-nav li a {
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.sidebar-nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li:hover {
+    text-decoration: none;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li:hover a {
+    color: #fff;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+	color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 18px;
+    line-height: 22px;
+	margin-top: 140px;
+	color: #fff;
+	text-align: left;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+
+/*************************/
+/*     Media Queries     */
+/*************************/
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
