@@ -1,0 +1,187 @@
+/******************************************
+    File Name: custom.css
+/****************************************** */
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+/** app index responsive **/
+
+@media (min-width:768px) {
+		
+body.app_version .btn-light {
+    margin-right: 10px;
+}
+
+}
+
+@media (max-width:767px) {
+.row.text-left.stat-wrap .col-lg-3.col-md-6.col-sm-6.col-xs-12 {
+    margin-bottom: 25px;
+}	
+.app_version #navbar {
+    margin-left: 0;
+    margin-top: 15px;
+}
+.navbar-toggle {
+	margin-right:0;
+}	
+.affix-top {
+    padding-left: 15px;
+    padding-right: 15px;
+}	
+body.host_version .btn-light, body.app_version .btn-light {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
+#features h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+#features li p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: normal;
+}
+.text-app {
+    float: left;
+    padding: 35px 50px 34px;
+    width: 100%;
+}
+.text-img {
+    float: right;
+    width: 100%;
+}
+.customwidget.text-left {
+    background: rgba(0,0,0,0.1);
+    padding: 40px 30px;
+    position: relative;
+    z-index: 9;
+
+}
+body.app_version div.customwidget li {
+    color: #ffffff;
+    margin-right: 0;
+    padding: 4px 15px;
+    border-radius: 50px;
+    line-height: normal;
+    background: #0165da;
+    width: 100%;
+    margin-bottom: 15px;
+}	
+body.app_version .dev-list .widget {
+    padding: 0 0 25px 0;
+    border: 5px solid #eee;
+    box-shadow: 0 30px 25px -40px #000;
+    margin-bottom: 25px;
+}
+.pricing-table-highlighted div.pricing-table-features p {
+    float: left;
+    width: 100%;
+}
+.pricing-table-sign-up {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.testimonial h3 {
+    padding: 0 0 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+body.app_version .apple-button i {
+    margin: -5px 10px;
+    vertical-align: middle;
+    font-size: 64px;
+}
+body.app_version .apple-button {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+body.app_version .apple-button strong {
+    font-size: 18px;
+}
+.information-cnt {
+    float: left;
+    width: 100%;
+}
+body.app_version .contact_form {
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+.app_version .section-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+body.app_version .cac {
+    background-color: #241f29;
+    padding: 0 20px;
+}
+.nav.navbar-nav.navbar-right {
+    margin: 18px 0 0 0;
+        margin-bottom: 0px;
+}
+.container {
+    width: 90%;
+}
+	
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+
+.container {width: 760px;}
+.text-app {float: left;padding: 35px 50px 35px;width: 100%;}
+.text-img {float: right;width: 100%;}
+body.app_version div.customwidget li {color: #ffffff;margin-left: 0.5%;padding: 4px 20px;border-radius: 50px; line-height: normal; background: #0165da;
+    width: 32.33%; float: left; margin-right: 0.5%; text-align: center;}
+.customwidget ul.list-inline i {font-size: 22px;}
+body.app_version div.customwidget li {font-size: 14px;}
+.dev-list .widget.clearfix {margin-bottom: 25px;}
+body.app_version .apple-button {font-size: 16px;font-weight: 300;}
+body.app_version .apple-button strong {font-size: 21px;}
+body.app_version .apple-button i {margin: -5px 20px 10px;}
+body.app_version .contact_form {background-color: #ffffff;float:left;margin-top: 25px;}
+.section.nopad.cac.text-center {padding: 0 50px;line-height: 24px;}
+.app_version #navbar {margin-left: 0;}
+.customwidget.text-left a.btn.btn-light.btn-radius.btn-brd {margin-top: 20px;}
+body.app_version .app_iphone_01 {display:none;}
+.first-section {padding: 8em 0 8em;}
+body.app_version .owl-app {width: 100%;}
+.row.app-features .col-md-4.hidden-xs.hidden-sm {display: none;}
+.row.app-features .col-md-4.col-sm-6.col-xs-12 {width: 50%;}
+.row.text-left.stat-wrap .col-lg-3.col-md-6.col-sm-6.col-xs-12 {margin-bottom: 30px;}
+#tab1 div.col-md-3, #tab1 div.col-md-6 {width: 100%;}
+
+}
+
+@media (min-width:1001px) and (max-width:1199px) {
+
+.container {width: 920px;padding: 0;}
+body.app_version .app_iphone_01 {width: 490px;position: absolute; z-index: 2; bottom: -150%; left: 0;}
+.first-section .col-md-6 {width: 50%;text-align: left;}
+.first-section h2 {font-size: 30px;font-weight: 500;}
+#home .btn.btn-light.btn-radius.btn-brd {float: left;width: 47%;padding-left: 0;padding-right: 0;}
+body.app_version .how-its-work .hc p {font-size: 19px;font-weight: 500;}
+body.app_version .how-its-work .hc p.lead {display: none;}
+.text-app {width: 50%;}
+body.app_version div.customwidget li {margin-right: 0;width: 31.33%;font-size: 13px;}
+.parallax.section .col-lg-3.col-md-6.col-sm-6.col-xs-12 {margin-bottom: 25px;}
+body.app_version .apple-button strong {font-size: 18px;}
+body.app_version .apple-button {font-size: 15px;font-weight: 300;}
+.navbar-right li.btn-light.btn-radius.btn-brd {display: none;}
+.row.dev-list.text-center .col-lg-3.col-md-6.col-sm-6.col-xs-12.wow.fadeIn {margin-bottom: 25px;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+	

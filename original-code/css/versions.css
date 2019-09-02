@@ -1,0 +1,178 @@
+/*------------------------------------------------------------------
+    File Name: versions.css
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+    1. BUILDING VERSION
+-------------------------------------------------------------------*/
+
+body.building_version {
+    font-family: 'Raleway', sans-serif;
+}
+
+body.building_version .message-box h4,
+body.building_version .widget-title small,
+body.building_version .customwidget li i,
+body.building_version .navbar-nav span {
+    color: #ffc000 !important;
+}
+
+body.building_version .lead strong,
+body.building_version .icon-wrapper:hover a,
+body.building_version a:hover,
+body.building_version a:focus {
+    color: #e8a900; 
+}
+
+body.building_version .effect-1:after {
+    box-shadow: 0 0 0 2px #ffc000;
+}
+
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+body.building_version .btn-buy:hover,
+body.building_version .cac:hover,
+body.building_version .icon_wrap:hover,
+body.building_version .nav-pills > li.active > a,
+body.building_version .nav-pills > li.active > a:focus,
+body.building_version .nav-pills > li.active > a:hover,
+body.building_version .icon-wrapper:hover i,
+body.building_version .grd1 {
+    color: #000 !important;
+    background: #ffc000;
+    border: #ffc000;
+    background: -moz-linear-gradient(left, #ffc000 0%, #fdde00 100%);
+    background: -webkit-linear-gradient(left, #ffc000 0%, #fdde00 100%);
+    background: linear-gradient(to right, #ffc000 0%, #fdde00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc000', endColorstr='#fdde00', GradientType=1);
+}
+
+body.building_version .dev-list .widget h3,
+body.building_version .icon_wrap,
+body.building_version .dmtop:hover,
+body.building_version .features-right li:hover i,
+body.building_version .features-left li:hover i,
+body.building_version .nav-pills > li:hover > a,
+body.building_version .nav-pills > li:focus > a,
+body.building_version .nav-pills > li.active > a,
+body.building_version .nav-pills > li.active > a:focus,
+body.building_version .nav-pills > li.active > a:hover,
+body.building_version .divider-bar,
+body.building_version .owl-next:hover i,
+body.building_version .owl-prev:hover i,
+body.building_version .icon-wrapper:hover i:hover,
+body.building_version .grd1:hover,
+body.building_version .grd1:focus {
+    background-position: 100px;
+    color: #000 !important;
+    background: #fdde00;
+    background: -moz-linear-gradient(left, #fdde00 0%, #ffc000 100%);
+    background: -webkit-linear-gradient(left, #fdde00 0%, #ffc000 100%);
+    background: linear-gradient(to right, #fdde00 0%, #ffc000 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fdde00', endColorstr='#ffc000', GradientType=1);
+}
+
+body.building_version .navbar-nav span {
+    color: #e8a900 !important;
+}
+
+body.building_version .seo-services .col-md-3:hover img {
+    border-color: #fdde00;
+}
+
+body.building_version .affix {
+    background-color: #000000 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.building_version .header_style_01 {
+    background-color: #000000;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: relative;
+}
+
+body.building_version .header_style_01 .navbar-default .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+body.building_version .header_style_01 .navbar-default .navbar-nav > li.active a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:hover a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:focus a,
+body.building_version .header_style_01 .navbar-default .navbar-nav > li:active a {
+    color: #e8a900 !important;
+}
+
+body.building_version .first-section {
+    padding: 12em 0;
+}
+
+body.building_version .first-section h2 {
+    color: #000;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+body.building_version .first-section .lead {
+    color: #222222;
+}
+
+body.building_version .first-section .btn {
+    background-color: #000000 !important;
+    border: 0 !important;
+}
+
+body.building_version .message-box h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body.building_version .dev-list .widget {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+body.building_version .dev-list .widget h3 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1 !important;
+    margin: 0 !important;
+    padding: 4px 10px;
+    position: relative;
+    top: -12px;
+}
+
+body.building_version .dev-list .widget small {
+    display: block;
+    margin: -10px 0 5px;
+}
+
+body.building_version .footer-social {
+    display: block;
+    margin-top: 15px;
+}
+
+body.building_version .message-box p {
+    margin-bottom: 0;
+}
+
+body.building_version .message-box p.lead {
+    margin-bottom: 30px;
+}
+
+body.building_version .btn-dark {
+    border: 2px solid #000000 !important;
+    color: #000000 !important;
+}
+
+body.building_version .section-title h3 {
+    font-weight: bold;
+}
+
+body.building_version .contact_form .btn {
+    border: 0 !important;
+}
