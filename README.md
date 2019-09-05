@@ -19,11 +19,11 @@ This repo try to show you how to migrate old landing page to modern frontend sta
 ## TODOs
 
 - [x] Setup parcel
-- [ ] Move loading JS from CDN/local to NPM
-- [ ] Combine all JS
-- [ ] Move loading CSS from local to NPM
-- [ ] Move to CSS Pre-processor
-- [ ] Combine all CSS
+- [x] Move loading JS from CDN/local to NPM
+- [x] Combine all JS
+- [x] Move loading CSS from local to NPM
+- [x] Move to CSS Pre-processor
+- [x] Combine all CSS
 - [ ] Add Lazyload assets
 - [ ] Add service worker
 
