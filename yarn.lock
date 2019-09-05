@@ -706,7 +706,7 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/fontawesome-free@^5.10.2":
+"@fortawesome/fontawesome-free@5.10.2":
   version "5.10.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.10.2.tgz#27e02da1e34b50c9869179d364fb46627b521130"
   integrity sha512-9pw+Nsnunl9unstGEHQ+u41wBEQue6XPBsILXtJF/4fNN1L3avJcMF/gGF86rIjeTAgfLjTY9ndm68/X4f4idQ==
@@ -967,7 +967,7 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@^9.6.1:
+autoprefixer@9.6.1:
   version "9.6.1"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.6.1.tgz#51967a02d2d2300bb01866c1611ec8348d355a47"
   integrity sha512-aVo5WxR3VyvyJxcJC3h4FKfwCQvQWb1tSI5VHNibddCVWrcD1NvlxEweg3TSgiPztMnWfjpy2FURKA2kvDE+Tw==
@@ -1084,12 +1084,12 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap-validator@^0.11.9:
+bootstrap-validator@0.11.9:
   version "0.11.9"
   resolved "https://registry.yarnpkg.com/bootstrap-validator/-/bootstrap-validator-0.11.9.tgz#fb7058eef53623e78f5aa7967026f98f875a9404"
   integrity sha1-+3BY7vU2I+ePWqeWcCb5j4dalAQ=
 
-bootstrap@^4.3.1:
+bootstrap@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
   integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
@@ -1688,7 +1688,7 @@ css-what@^2.1.2:
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.3.tgz#a6d7604573365fe74686c3f311c56513d88285f2"
   integrity sha512-a+EPoD+uZiNfh+5fxw2nO9QwFa6nJe2Or35fGY6Ipw1R3R4AGz1d1TEZrCegvw2YTmZ0jXirGYlzxxpYSHwpEg==
 
-css@^2.2.4:
+css@2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/css/-/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
   integrity sha512-oUnjmWpy0niI3x/mPL8dVEI1l7MnG3+HHyRPHf+YFSbK+svOhXpmSOcDURUh2aOCgl2grzrOPt1nHLuCVFULLw==
@@ -2977,7 +2977,7 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jquery@^3.4.1:
+jquery@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
@@ -3208,7 +3208,7 @@ magic-string@^0.22.4:
   dependencies:
     vlq "^0.2.2"
 
-magnific-popup@^1.1.0:
+magnific-popup@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/magnific-popup/-/magnific-popup-1.1.0.tgz#3e7362c5bd18f6785fe99e59d013e20af33d3049"
   integrity sha1-PnNixb0Y9nhf6Z5Z0BPiCvM9MEk=
@@ -3711,7 +3711,7 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
 
-parcel-bundler@^1.12.3:
+parcel-bundler@1.12.3:
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.12.3.tgz#2bbf70bfa2d06097f071653285040bd125684d09"
   integrity sha512-8bq6lj0hhQeGxD9f9xEkFMXQ3d8TIlf2+isKxoi9bciB0KVEILRGllaPkUgp++5t0anToBh9+tG6ZyInXOC1/A==
@@ -3865,7 +3865,7 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-popper.js@^1.15.0:
+popper.js@1.15.0:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
   integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
@@ -4025,7 +4025,7 @@ postcss-modules-values@1.3.0:
     icss-replace-symbols "^1.1.0"
     postcss "^6.0.1"
 
-postcss-modules@^1.4.1:
+postcss-modules@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/postcss-modules/-/postcss-modules-1.4.1.tgz#8aa35bd3461db67e27377a7ce770d77b654a84ef"
   integrity sha512-btTrbK+Xc3NBuYF8TPBjCMRSp5h6NoQ1iVZ6WiDQENIze6KIYCSf0+UFQuV3yJ7gRHA+4AAtF8i2jRvUpbBMMg==
@@ -4637,7 +4637,7 @@ safer-eval@^1.3.0:
   dependencies:
     clones "^1.2.0"
 
-sass@^1.23.0-module.beta.1:
+sass@1.23.0-module.beta.1:
   version "1.23.0-module.beta.1"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.0-module.beta.1.tgz#9d0f823dcdcd58fc1c1345993ff0306289320963"
   integrity sha512-Cb6l+z/z5mIpOe8lPp+DttHhHyb6J8SsscSIhLUzqDH2Ta2+9mpz8TRvYezD1n+Ey1TWi3EKz8VUPg42Zc1vmA==
@@ -5039,7 +5039,7 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-swiper@^4.5.0:
+swiper@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.5.0.tgz#4d870bec4f5abe2fb259325849dd2641c9243c0d"
   integrity sha512-jRCd/CGet9kaHwthHdd/sL/YU8CI157PWLyItnIcn/o/jP4haVky3zTF6f9F3JDpmQIw7jdWihISiYx0/oTHsg==

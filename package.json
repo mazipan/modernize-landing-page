@@ -19,19 +19,19 @@
   },
   "homepage": "https://github.com/mazipan/modernize-landing-page#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2",
-    "parcel-bundler": "^1.12.3",
-    "sass": "^1.23.0-module.beta.1"
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "sass": "1.23.0-module.beta.1",
+    "parcel-bundler": "1.12.3"
   },
   "dependencies": {
-    "autoprefixer": "^9.6.1",
-    "bootstrap": "^4.3.1",
-    "bootstrap-validator": "^0.11.9",
-    "css": "^2.2.4",
-    "jquery": "^3.4.1",
-    "magnific-popup": "^1.1.0",
-    "popper.js": "^1.15.0",
-    "postcss-modules": "^1.4.1",
-    "swiper": "^4.5.0"
+    "autoprefixer": "9.6.1",
+    "bootstrap": "4.3.1",
+    "bootstrap-validator": "0.11.9",
+    "css": "2.2.4",
+    "jquery": "3.4.1",
+    "magnific-popup": "1.1.0",
+    "popper.js": "1.15.0",
+    "postcss-modules": "1.4.1",
+    "swiper": "4.5.0"
   }
 }
