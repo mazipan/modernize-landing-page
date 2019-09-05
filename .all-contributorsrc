@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mazipan",
+      "name": "Irfan Maulana",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4",
+      "profile": "https://www.mazipan.xyz/",
+      "contributions": [
+        "infra",
+        "bug",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "modernize-landing-page",
+  "projectOwner": "mazipan",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
