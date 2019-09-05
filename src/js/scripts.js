@@ -10,7 +10,7 @@ window.jQuery = $;
 
 require('magnific-popup/dist/jquery.magnific-popup')
 require('bootstrap-validator')
-// require('./jquery.easing.min.js')
+require('./jquery.easing.min.js')
 
 console.log('Welcome to Modernize Evolo...')
 
