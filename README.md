@@ -1,5 +1,6 @@
 # modernize-landing-page
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) ![TemplateBy Evolo](https://img.shields.io/badge/TemplateBy-Evolo-blue.svg) [![Travis](https://img.shields.io/travis/mazipan/modernize-landing-page.svg)](https://travis-ci.org/mazipan/modernize-landing-page)
 
 How to creating landing page in modern frontend stack
 
