@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/mazipan/modernize-landing-page#readme",
   "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
+    "@babel/core": "7.6.0",
+    "@babel/preset-env": "7.6.0",
     "@fortawesome/fontawesome-free": "5.10.2",
     "parcel-bundler": "1.12.3",
     "sass": "1.23.0-module.beta.1"
