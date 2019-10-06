@@ -22,7 +22,7 @@
     "@babel/core": "7.6.2",
     "@babel/preset-env": "7.6.2",
     "@fortawesome/fontawesome-free": "5.11.2",
-    "parcel-bundler": "1.12.3",
+    "parcel-bundler": "1.12.4",
     "sass": "1.23.0"
   },
   "dependencies": {
