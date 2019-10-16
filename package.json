@@ -32,7 +32,7 @@
     "css": "2.2.4",
     "jquery": "3.4.1",
     "magnific-popup": "1.1.0",
-    "popper.js": "1.15.0",
+    "popper.js": "1.16.0",
     "postcss-modules": "1.4.1",
     "swiper": "4.5.1"
   }
