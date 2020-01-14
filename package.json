@@ -26,7 +26,7 @@
     "sass": "1.24.4"
   },
   "dependencies": {
-    "autoprefixer": "9.7.3",
+    "autoprefixer": "9.7.4",
     "bootstrap": "4.4.1",
     "bootstrap-validator": "0.11.9",
     "css": "2.2.4",
