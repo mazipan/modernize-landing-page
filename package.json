@@ -23,7 +23,7 @@
     "@babel/preset-env": "7.8.3",
     "@fortawesome/fontawesome-free": "5.12.0",
     "parcel-bundler": "1.12.4",
-    "sass": "1.24.5"
+    "sass": "1.25.0"
   },
   "dependencies": {
     "autoprefixer": "9.7.4",
