@@ -10,7 +10,7 @@ This repo try to show you how to migrate old landing page to modern frontend sta
 
 ## Live
 
-[https://modernize-evolo.netlify.com/](https://modernize-evolo.netlify.com/)
+[https://mazipan.github.io/modernize-landing-page/](https://mazipan.github.io/modernize-landing-page/)
 
 ## Screenshoot
 
